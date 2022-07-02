@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*---- FONTES -----*/
+:root {
+    --font-destaque:'Roboto', sans-serif; 
+    --font-sub-destaque:'Catamaran', sans-serif;
+    --font-normal:'Asap', sans-serif;
+}
+
+/*----- CORES ----- */
+:root {
+    --cor00: #0FC2C0;
+    --cor01: #0CABA8;
+    --cor02: #008F8C;
+    --cor03: #015958;
+    --cor04: #023535;
+}
+
+::marker {
+    color: var(--cor03);
+}
+
+p {
+    font-family: var(--font-normal);
+    margin: 5px;
+}
+
+#cabecario {
+    background-image: url("../assets/images/Meu_background.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.content {
+    margin: 70px;
+    margin-top: 160px;
+    background-color: #008f8d63 ;
+    border-radius: 20px;
+    max-width: 540px;
+    padding-bottom: 20px;
+}
+
+.content > h1 {
+    font-family: var(--font-destaque);
+    font-size: 50px;
+    max-width: 550px; 
+    color: white;
+    padding-right: 20px;
+}
+
+.content > p {
+    color: white;
+    font-family: var(--font-normal);
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.theme {
+    color: var(--cor04); 
+}
+
+#menu nav ul {
+    display: flex;
+    list-style: none;
+    padding: 6px;
+}
+
+#menu nav ul li {
+    padding: 10px;
+}
+
+#menu nav ul li a {
+    color: white;
+    font-family: var(--font-normal);
+}
+
+.icone {
+    width: 20px;
+}
+
+#github {
+    border: 2px solid white; 
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-normal);
+}
+
+/* ---CORPO---- */
+
+main {
+    margin: 70px;
+}
+
+.h1-theme {
+    font-family: var(--font-sub-destaque);
+    font-size: 46px;
+}
+    
+
+#sobre-mim > p {
+    font-size: 20px;
+    max-width: 500px;
+}
+
+#projetos {
+    margin-top: 20px;
+}
+
+#projetos > ul {
+    list-style-position: inside;
+}
+
+#projetos > ul > li {
+    font-size: 20px;
+    font-family: var(--font-normal);
+    padding: 5px;
+}
+
+#gamer {
+    max-width: 100%;
+    background-color: var(--cor02);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#content-gamer {
+    padding: 30px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+#content-gamer > h2 {
+    font-family: var(--font-sub-destaque);
+}
+
+#content-gamer > h2:nth-of-type(2){
+    margin-top: 10px;
+}
+
+#content-gamer > p {
+    font-size: 20px;
+    max-width: 500px;
+}
+
+#content-gamer ul {
+    list-style-position: inside;
+}
+
+#content-gamer ul > li {
+    font-size: 20px;
+    font-family: var(--font-normal);
+    padding: 5px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: var(--cor02);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
